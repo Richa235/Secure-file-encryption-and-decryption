@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run GUI",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/secure_file_tool.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "CLI (example encrypt)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/secure_file_tool.py",
+      "args": [
+        "-e",
+        "README.md",
+        "-p",
+        "demo"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
